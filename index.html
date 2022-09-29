@@ -5,39 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--Ini adalah block header-->
+    <!-- Ini adalah bagian header-->
     <header>
+        <h1>Belajar membuat layout dengan HTML dan CSS</h1>
+    </header>  
+ 
+    <!-- Ini adalah bagian nav menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-    </header>
+    <!-- Ini adalah container untuk body content -->
+    <div id="container">
+        <!-- Ini adalah section content Kiri -->
+        <section class="Kiri">
+            <div class="content">
+                <h2>Judul Berita</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam minus quasi recusandae voluptatem iure magnam ratione molestias, repellendus ipsa nesciunt labore libero aperiam laboriosam natus earum repellat aspernatur non dolores!</p>
+                <button>Read More...</button>
+            </div>
+            <div class="content">
+                <h2>Judul Berita</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam minus quasi recusandae voluptatem iure magnam ratione molestias, repellendus ipsa nesciunt labore libero aperiam laboriosam natus earum repellat aspernatur non dolores!</p>
+                <button>Read More...</button>
+            </div>
+        </section>
 
-    <!--Ini adalah block section-->
-    <section>
-        <h1>CHRISTIAN YU</h1>
-        <img src="image/IAN.jfif" alt="" style="width: ; 20%; margin: 20px auto; display: block;">
-        <table style="border: 1px red solid; margin: 0px auto;">
-            <tr>
-                <td>Nama</td>
-                <td>:</td>
-                <td>Christian Yu</td>
-            </tr>
-            <tr>
-                <td>Alamat</td>
-                <td>:</td>
-                <td>Sydney,Australia</td>
-            </tr>
-            <tr>
-                <td>Profile</td>
-                <td>:</td>
-                <td><a href="https://kprofiles.com/christian-yu-profile-facts/" target="_blank">Click Here Bestie!!</a></td>
-            </tr>
-        </table>
-    </section>
+        <!-- Ini adalah section content Kanan -->
+        <section class="Kanan">
+            <div class="content1">
+                <h2>CATEGORY</h2>
+                <hr>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Javascript</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">MYSQL</a></li>
+                    <li><a href="#">Laravel</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
 
-    <!--Ini adalah block footer-->
+ <!-- Ini adalah bagian footer -->
     <footer>
-
+        <p>Copyright PSTI 2022</p>
     </footer>
 </body>
 </html>
